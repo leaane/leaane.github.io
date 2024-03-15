@@ -1,0 +1,132 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.headercontainer {
+    background-color: white;
+    min-height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: larger;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.bold {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.button { 
+    padding: 10px 25px;  
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 20px;
+}
+
+
+
+
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.cards {
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(#);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+
+.card2 {
+    background-image: url(#);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+}
+
+.card3 {
+    background-image: url(#);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+}
+
+.card1, .card2, .card3 {
+    box-sizing: border-box;
+    padding: 30px 30px 20px 30px;
+}
+
+.herobox1 {
+    padding-top: 100px;
+    flex: 2;
+    padding-right: 100px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+.herobox2 {
+    padding-top: 100px;
+    flex: 1;
+}
+
+.herobox2 img {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
