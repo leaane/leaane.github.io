@@ -12,9 +12,8 @@ body {
 }
 
 header {
-    max-width: 1024px;
+    width: 100%;
     min-height: 100px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +23,7 @@ header {
     font-size: larger;
     display: flex;
     align-items: center;
+    margin-left: 30px;
 }
 
 a {
@@ -38,18 +38,19 @@ a img {
 }
 
 .bold {
-    font-size: larger;
-    font-weight: 700;
-    margin-right: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    padding-right: 20px;
 }
 
 .button { 
-    padding: 5px 5px;  
+    padding: 5px 10px;  
 }
 
 nav {
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 nav a {
@@ -73,13 +74,15 @@ main {
 
 .cards {
     padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
 .card1 {
-    background-image: url(#);
+    background-image: url("/Users/leaneche/Desktop/Portfolio/Home Page Images/Me.jpeg");
     background-size: cover;
     background-position: bottom;
     min-height: 250px;
@@ -87,7 +90,7 @@ main {
 }
 
 .card2 {
-    background-image: url(#);
+    background-image: url(IMG_6450\ copy.JPG);
     background-size: cover;
     background-position: center;
     min-height: 250px;
@@ -95,7 +98,7 @@ main {
 }
 
 .card3 {
-    background-image: url(#);
+    background-image: url("/Users/leaneche/Desktop/Portfolio/Home Page Images/Resume.jpg");
     background-size: cover;
     background-position: center;
     min-height: 250px;
@@ -128,12 +131,15 @@ main {
 h1 {
     font-size: 3.25rem;
     margin-bottom: 1rem;
+    padding-top: 75px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
 }
 
 h2 {
+    color: white;
     font-size: 2rem;
-    margin-top: 20px;
+    margin-top: 60px;
+    font-weight: bold;
 }
 
 p {
