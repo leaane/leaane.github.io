@@ -82,7 +82,7 @@ main {
 }
 
 .card1 {
-    background-image: url("/Users/leaneche/Desktop/Portfolio/Home Page Images/Me.jpeg");
+    background-image: url("Home Page Images/Me.jpeg");
     background-size: cover;
     background-position: bottom;
     min-height: 250px;
@@ -98,7 +98,7 @@ main {
 }
 
 .card3 {
-    background-image: url("/Users/leaneche/Desktop/Portfolio/Home Page Images/Resume.jpg");
+    background-image: url("Home Page Images/Resume.jpg");
     background-size: cover;
     background-position: center;
     min-height: 250px;
