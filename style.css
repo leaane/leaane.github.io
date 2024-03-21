@@ -255,7 +255,34 @@ h5 {
 .apps img {
     width: 10%;
     height: auto;
+}
 
+.projects-header {
+    background-color: rgb(135, 153, 188);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-    
+h6 {
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+
+/* -------------  About -------------- */
+
+.collage {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.collage img {
+    width: 300px;
+    height: auto;
 }
