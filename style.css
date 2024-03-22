@@ -327,9 +327,16 @@ h6 {
 }
 
 /* -------------  Responsiveness -------------- */
-@media (max-width: 1350px) {
+@media (max-width: 1250px) {
     .resume {
         padding: 100px 10px;
     }
+
+    .about-page {
+        flex-direction: column;
+    }
     
+    .collage {
+        width: 85%;
+    }
 }
