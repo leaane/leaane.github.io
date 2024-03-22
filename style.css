@@ -9,6 +9,7 @@ body {
     min-height: 100px;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 header {
@@ -280,12 +281,27 @@ h5 {
     width: 100%;
     height: auto;
 }
+
+h6 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.indesigns {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.indesigns .carousel-item img {
+    border: 1px solid black; 
+}
+
 /* -------------  About -------------- */
 
 .about-page {
     display: flex;
     width: 100%;
-    z-index: -1;
 }
 
 .collage {
@@ -306,11 +322,9 @@ h5 {
     padding: 10px; 
 }
 
-.carousel {
-    z-index: -1;
+.about-me {
+    text-align: center;
 }
-
-
 
 /* -------------  Responsiveness -------------- */
 @media (max-width: 1350px) {
