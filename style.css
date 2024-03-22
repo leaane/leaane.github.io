@@ -236,6 +236,10 @@ h5 {
     padding-right: 5px;
 }
 
+.resume p {
+    padding-left: 35px;
+}
+
 #resume-download {
     padding-top: 30px;
     font-size: large;
@@ -265,12 +269,10 @@ h5 {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-h6 {
     font-weight: bold;
     font-size: xx-large;
     color: white;
+    justify-content: center;
 }
 
 /* -------------  About -------------- */
@@ -301,4 +303,14 @@ h6 {
 
 .carousel {
     z-index: -1;
+}
+
+
+
+/* -------------  Responsiveness -------------- */
+@media (max-width: 1350px) {
+    .resume {
+        padding: 100px 10px;
+    }
+    
 }
