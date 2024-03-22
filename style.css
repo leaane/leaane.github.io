@@ -264,6 +264,7 @@ h5 {
 
 .projects .row {
     justify-content: center;
+    text-align: center;
 }
 
 .projects .row img {
@@ -271,13 +272,11 @@ h5 {
     height: auto;
 }
 
-
-
-.illustrator .row {
+.illustrators .row {
     justify-content: center;
 }
 
-.illustrator .row img {
+.illustrators .row img {
     width: 100%;
     height: auto;
 }
