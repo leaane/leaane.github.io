@@ -11,3 +11,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+/* -------------  Burger Menu -------------- */
+$(document).ready(function(){
+    $('.burgermenu').on('click', function(){
+        $('.mob-nav').toggleClass('show-nav'); 
+    });
+});

@@ -1,3 +1,4 @@
+/* -------------  Navbar -------------- */
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
@@ -48,6 +49,10 @@ a img {
     padding: 5px 10px;  
 }
 
+.button2 {
+    padding: 5px 5px;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -90,8 +95,12 @@ nav a {
     background-color: #bbbbbb;
 }
 
+.mob-wrapper {
+    display: none; 
+}
 
-/* -------------  Home Body -------------- */
+
+/* -------------  Home -------------- */
 .card1::before, .card2::before, .card3::before {
   content: "";
   position: absolute;
@@ -252,7 +261,7 @@ h5 {
 .projects-header {
     background-color: rgb(135, 153, 188);
     width: 100%;
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     margin-top: 50px;
@@ -263,13 +272,30 @@ h5 {
     justify-content: center;
 }
 
-.projects .row {
+.projects-container {
+    display: flex;
+    width: 100%;
+}
+
+.projects {
+    display: flex;
+    width: 50%;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+.columns {
+    flex: 1;
+}
+
+.apps .row {
+    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 
-.projects .row img {
-    width: 80%;
+.apps .row img {
+    width: 50%;
     height: auto;
 }
 
@@ -348,7 +374,48 @@ h6 {
         margin-right: 0px;
     }
 
-    .newspaper button {
-        display: none;
+
+
+
+
+
+    .mob-wrapper {
+        display: block;
+    }
+
+    .mob-nav {
+        position: fixed;
+        top: 100px; 
+        right: -350px; 
+        width: 250px;
+        height: calc(100vh - 100px); 
+        background-color: #bbbbbb; 
+        transition: right 0.6s ease; 
+    }
+    
+    .show-nav {
+        right: 0;
+    }
+    
+    .button3 {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .button {
+        display:none;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    .logo {
+        padding: 40px 0px;
+    }
+
+    .button {
+        margin-left: 0px;
     }
 }
