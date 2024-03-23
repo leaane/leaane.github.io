@@ -212,6 +212,7 @@ p {
 .resume {
     padding-left: 250px;
     padding-right: 250px;
+    padding-bottom: 100px;
 }
 
 h3 {
@@ -273,27 +274,21 @@ h5 {
 
 .projects-container {
     display: flex;
-    width: 100%;
+}
+
+.apps {
+    flex: 1;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
 }
 
 .projects {
-    display: flex;
-    width: 50%;
-    padding-top: 100px;
-    margin-left: 50px;
+    flex: 11;
 }
 
-.columns {
-    flex: 1;
-}
-
-.apps .row {
-    flex-direction: column;
-    justify-content: center;
+.apps img {    
     text-align: center;
-}
-
-.apps .row img {
     width: 50%;
     height: auto;
 }
@@ -320,8 +315,19 @@ h6 {
 
 .chris {
     display: flex;
+    margin-left: 50px;
+    margin-right: 50px
 }
 
+.chris .row {
+    justify-content: center;
+    text-align: center;
+}
+
+.chris .row .col-4 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
 /* -------------  About -------------- */
 
 .about-page {
