@@ -288,13 +288,13 @@ h6 {
     text-align: center;
 }
 
-.indesigns {
-    width: 50%;
-    margin-left: 50px;
+.newspaper .carousel-item img {
+    margin: auto;
+    border: 1px solid black; 
 }
 
-.indesigns .carousel-item img {
-    border: 1px solid black; 
+.chris {
+    display: flex;
 }
 
 /* -------------  About -------------- */
@@ -322,8 +322,14 @@ h6 {
     padding: 10px; 
 }
 
-.about-me {
-    text-align: center;
+.collage h6 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.collage p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
 }
 
 /* -------------  Responsiveness -------------- */
@@ -337,6 +343,12 @@ h6 {
     }
     
     .collage {
-        width: 85%;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .newspaper button {
+        display: none;
     }
 }
