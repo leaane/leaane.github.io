@@ -212,7 +212,8 @@ p {
 /* -------------  Resume -------------- */
 
 .resume {
-    padding: 100px 250px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 h3 {
@@ -361,7 +362,8 @@ h6 {
 /* -------------  Responsiveness -------------- */
 @media (max-width: 1250px) {
     .resume {
-        padding: 100px 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .about-page {
