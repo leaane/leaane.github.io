@@ -21,11 +21,11 @@ $(document).ready(function(){
 
 
 
-/* -------------  Resume -------------- */
+/* -------------  Header Adjustment -------------- */
 function adjustResumePadding() {
     var headerHeight = document.querySelector('.header-container').offsetHeight;
     var resumeSection = document.querySelector('.resume');
-    var newPadding = headerHeight + 20; // Add 20px for additional spacing
+    var newPadding = headerHeight + 20;
 
     resumeSection.style.paddingTop = newPadding + 'px';
 }

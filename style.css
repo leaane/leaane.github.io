@@ -329,12 +329,12 @@ h6 {
 .about-page {
     display: flex;
     width: 100%;
+    padding-top: 100px;
 }
 
 .collage {
     width: 50%; 
     display: flex; 
-    padding-top: 100px;
     margin-left: 50px;
 }
 
@@ -367,7 +367,12 @@ h6 {
     }
 
     .about-page {
+        padding-top: 120px;
         flex-direction: column;
+    }
+
+    .about-me {
+        padding-left: 50px;
     }
     
     .collage {
