@@ -292,15 +292,22 @@ h5 {
     margin-left: 10%;
 }
 
+.projects p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
 .apps img {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .apps .col-1 a {
     display: inline-block; 
     background-color: initial; 
-    padding: 5px; 
+    padding: 10px; 
     transition: transform 0.2s ease-in-out; 
 }
 
@@ -317,7 +324,7 @@ h5 {
     height: auto;
 }
 
-h6 {
+.illustrators p {
     font-weight: bold;
     font-size: 50px;
     text-align: center;
@@ -337,13 +344,18 @@ h6 {
 .chris .row {
     justify-content: center;
     text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 2px solid rgb(135, 153, 188);
 }
 
 .chris .row .col-4 {
     margin-right: 50px;
     margin-left: 50px;
+}
+
+.chris p {
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .psd {
@@ -366,6 +378,17 @@ h6 {
 .psd .col-4 {
     display: flex;
     align-items: center; 
+}
+
+.isd {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(135, 153, 188);
+}
+
+.isd .row {
+    justify-content: center;
+    align-items: center;
 }
 
 /* -------------  About -------------- */
@@ -393,9 +416,11 @@ h6 {
     padding: 10px; 
 }
 
-.collage h6 {
+h6 {
     font-size: 30px;
     padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .collage p {
