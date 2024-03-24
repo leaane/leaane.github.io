@@ -297,6 +297,17 @@ h5 {
     margin-bottom: 30px;
 }
 
+.apps .col-1 a {
+    display: inline-block; 
+    background-color: initial; 
+    padding: 5px; 
+    transition: transform 0.2s ease-in-out; 
+}
+
+.apps .col-1 a:hover {
+    transform: translateY(-10px); 
+}
+
 .illustrators .row {
     justify-content: center;
 }
