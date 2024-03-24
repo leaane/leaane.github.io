@@ -297,6 +297,7 @@ h5 {
     margin-right: 50px;
     margin-bottom: 50px;
     justify-content: center;
+    text-align: center;
 }
 
 .apps img {
@@ -383,12 +384,26 @@ h5 {
 .isd {
     display: flex;
     padding-bottom: 30px;
-    border-bottom: 2px solid rgb(135, 153, 188);
 }
 
 .isd .row {
     justify-content: center;
     align-items: center;
+}
+
+.isd p {
+    margin: 0px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.paws .row {
+    justify-content: center;
+}
+
+.paws .row img {
+    width: auto;
+    height:350px;
 }
 
 /* -------------  About -------------- */
@@ -449,6 +464,8 @@ h6 {
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    
 
 
 
@@ -511,5 +528,11 @@ h6 {
 
     .herobox1 {
         padding: 10px;
+    }
+
+
+
+    .projects p {
+        text-align: left;
     }
 }
