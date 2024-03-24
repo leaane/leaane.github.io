@@ -278,13 +278,13 @@ h5 {
 
 .apps {
     flex: 1;
-    background-color: lightgray;
     display: flex;
     flex-direction: column;
     position: fixed; 
     top: 100px; 
     bottom: 0; 
     left: 0; 
+    margin-left: 10px;
 }
 
 .projects {
@@ -292,9 +292,15 @@ h5 {
     margin-left: 10%;
 }
 
-.apps img {    
+.apps .col-1 {    
+    font-size: small;
     text-align: center;
- 
+}
+
+
+.apps img {
+    width: 100%;
+    text-align: center;
 }
 
 .illustrators .row {
@@ -326,6 +332,8 @@ h6 {
 .chris .row {
     justify-content: center;
     text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(135, 153, 188);
 }
 
 .chris .row .col-4 {
