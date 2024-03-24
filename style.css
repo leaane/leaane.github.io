@@ -281,16 +281,20 @@ h5 {
     background-color: lightgray;
     display: flex;
     flex-direction: column;
+    position: fixed; 
+    top: 100px; 
+    bottom: 0; 
+    left: 0; 
 }
 
 .projects {
     flex: 11;
+    margin-left: 10%;
 }
 
 .apps img {    
     text-align: center;
-    width: 50%;
-    height: auto;
+ 
 }
 
 .illustrators .row {
