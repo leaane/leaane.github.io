@@ -406,6 +406,39 @@ h5 {
     height:350px;
 }
 
+.memory-game {
+    display: flex;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 2px solid rgb(135, 153, 188);
+}
+
+.memory-game .row {
+    justify-content: center;
+    align-items: center;
+}
+
+.memory-game p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.memory-game img {
+    width: 100%;
+}
+
+.memory-game .bold {
+    font-size: medium;
+    padding-right: 5px;
+}
+
+.code-org .row {
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* -------------  About -------------- */
 
 .about-page {
