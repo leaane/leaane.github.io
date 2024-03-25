@@ -432,14 +432,29 @@ h5 {
     width: 100%;
 }
 
-.memory-game .bold {
+.bold2 {
+    font-weight: bold;
     font-size: medium;
     padding-right: 5px;
+}
+
+.code-org {
+    margin: 30px 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(135, 153, 188);
 }
 
 .code-org .row {
     justify-content: center;
     align-items: center;
+}
+
+.p2048 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -564,7 +579,8 @@ h6 {
 
     footer {
         background-color: #f0f0f0;
-        padding: 40px; 
+        padding: 20px;
+        height: 90px;
         width: 100%;
         position: fixed;
         bottom: 0;
@@ -581,9 +597,29 @@ h6 {
     .mob-apps img {
         width: 50px;
     }
+
+    .isd .row {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .isd .col-7 {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .isd .col-3 {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: -30px;
+        width: 80%;
+    }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .cards {
         flex-direction: column;
     }
@@ -601,7 +637,19 @@ h6 {
     }
 
 
+    .code-org {
+        display: none;
+    }
 
+    .chris {
+        display: flex;
+        margin: 0;
+    }
+
+    .chris .row {
+        display: flex;
+        margin: 0;
+    }
 
     .projects .illustrators p {
         text-align: center;
