@@ -119,7 +119,7 @@ nav a {
 
 main {
     padding-top: 125px;
-    padding-left: 25px;
+    justify-content: space-around;
     min-height: 300px;
     display: flex;
     align-items: center;
@@ -132,6 +132,7 @@ main {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap; 
 }
 
 .card1 {
@@ -162,7 +163,7 @@ main {
     box-sizing: border-box;
     padding: 0px;
     position: relative;
-    margin: 0 10px;
+    margin: 10px;
     flex: 1;
     overflow: hidden;
 }
@@ -478,7 +479,7 @@ h5 {
 
 .sfml p {
     margin: 0;
-    justify-content: space-between;
+    text-align: left;
 }
 
 
@@ -644,25 +645,6 @@ h6 {
 }
 
 @media (max-width: 900px) {
-    .cards {
-        flex-direction: column;
-    }
-
-    .cards a {
-        margin-bottom: 30px;
-    }
-
-    main {
-        padding-top: 120px;
-    }
-
-    .herobox1 {
-        padding: 10px;
-    }
-
-
-
-
     .paws .row img{
         height: 250px;
         width: auto;
@@ -684,5 +666,21 @@ h6 {
 
     .projects p {
         text-align: left;
+    }
+}
+
+@media (max-width: 700px) {
+    main {
+        padding-top: 120px;
+    }
+
+    .herobox1 {
+        padding: 10px;
+        margin-left: 50px;
+    }
+    
+    .card1, .card2, .card3 {
+        flex-basis: 100%; 
+        max-width: calc(100% - 20px); 
     }
 }
