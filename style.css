@@ -455,6 +455,30 @@ h5 {
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(135, 153, 188);
+}
+
+.sfml {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+.sfml .row {
+    justify-content: center;
+    text-align: center;
+}
+
+.sfml .row .col-4 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.sfml p {
+    margin: 0;
+    justify-content: space-between;
 }
 
 
@@ -637,8 +661,11 @@ h6 {
     }
 
 
-    .code-org {
-        display: none;
+
+
+    .paws .row img{
+        height: 250px;
+        width: auto;
     }
 
     .chris {
